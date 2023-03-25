@@ -10,4 +10,22 @@
  
 5.查看版本 git log , git reflog
 
-6. 回滚  git reset --hard 版本号
+6. 回滚  git reset --hard （切换版本号）
+
+命令总结：
+git init  初始化
+git status 查看状态
+git add .
+git commit -m "11"
+git checkout xxx 还原工作区文件
+git branch  查看
+git branch dev  创建
+git checkout bug  切换
+git branch -d dev 删除
+git merge dev 合并分支
+git merge master 合并主分支
+git remote add origin https://github.com/xxxx  给远程仓库取别名
+git push origin master
+git push origin dev
+git clone https://github.com/xxxx   所有代码和分支都拉下来(默认起了别名)
+git checkout dev 
