@@ -25,6 +25,9 @@ git checkout bug  切换
 git branch -d dev 删除
 git merge dev 合并分支
 git merge master 合并主分支
+git stash  保存现在的东西在缓存中 没提交
+git stash list  查看缓存中的东西
+git stash apply {ID}  恢复缓存中的东西
 git remote add origin https://github.com/xxxx  给远程仓库取别名
 git push origin master
 git push origin dev
