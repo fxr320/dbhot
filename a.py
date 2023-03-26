@@ -1,2 +1,2 @@
 num = 1
-print(int("aa"))
+print(int("1"))
