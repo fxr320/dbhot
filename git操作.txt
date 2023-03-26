@@ -17,10 +17,10 @@ git init  初始化
 git status 查看状态
 git add .
 git commit -m "11"
-git diff    查看工作区和版本库有不同的文件
-git restore xxx 还原工作区文件
+git checkout xxx 还原工作区文件
 git branch  查看
-git branch dev  创建
+git branch dev  创建分支
+git checkout -b dev 创建分支并切换分支
 git checkout bug  切换
 git branch -d dev 删除
 git merge dev 合并分支
